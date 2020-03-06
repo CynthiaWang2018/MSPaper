@@ -1,3 +1,4 @@
+# 切比雪夫的方法用在文本分类中 准确率很低
 from __future__ import division
 from __future__ import print_function
 
