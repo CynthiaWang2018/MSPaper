@@ -3,4 +3,4 @@
 
 There are mainly two parts for my code. One for Chinese datasets, the other for English datasets.   
 For each dataset, I have tried four methods: text gcn, text sgc, indctive gcn, bert.  
-Detailed usage method will be introduced later.
+Detailed usage steps will be introduced soon.
