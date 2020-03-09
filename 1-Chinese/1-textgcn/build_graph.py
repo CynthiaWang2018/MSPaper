@@ -462,7 +462,7 @@ for i in range(vocab_size):
             vector_i = np.array(word_vector_map[vocab[i]])
             vector_j = np.array(word_vector_map[vocab[j]])
             similarity = 1.0 - cosine(vector_i, vector_j)
-            if similarity > 0.9:
+            if similarity > 0.5:
                 # print(vocab[i], vocab[j], similarity)
                 row.append(train_size + i)
                 col.append(train_size + j)
