@@ -1,5 +1,4 @@
-# 原本文件名为pubmed_inductive_appr2layers
-# 参考 https://blog.csdn.net/guotong1988/article/details/103684775?utm_source=distribute.pc_relevant.none-task
+
 from __future__ import division
 from __future__ import print_function
 

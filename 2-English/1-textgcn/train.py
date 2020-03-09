@@ -1,14 +1,3 @@
-"""
-参考: https://www.cnblogs.com/think90/articles/11555381.html
-以cora数据集为例
-通过flags = tf.app.flags 模式设置参数, 可以在命令行运行时指定参数, 例如: python train.py --model gcn_cheby
-提供了可供选择的三个模型: 'gcn', 'gcn_cheby', 'dense'. dense是由两层的MLP构成的
-FLAGS.weight_decay(权重衰减): 在一定程度上减少模型过拟合问题
-FLAGS.hidden1: 卷积层第一层的output dim, 第二层的input dim
-FLAGS.max_degree: K阶的切比雪夫近似矩阵的参数K
-FLAGS.dropout: 避免过拟合(按照一定的概率随机丢弃一部分神经元)
-输入维度input_dim = features[2][1] (1433) 也就是每个节点的维度
-"""
 
 # this file
 from __future__ import division
